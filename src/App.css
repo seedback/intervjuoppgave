@@ -1,8 +1,13 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
+
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +40,70 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.Main {
+  min-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Article {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  outline: 1px black solid;
+}
+
+.Article a:link,
+.Article a:visited,
+.Article a:hover,
+.Article a:active,
+.Article span {
+  height: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Article h3 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.Article a:hover {
+  text-decoration: underline;
+}
+
+.Article a span {
+  padding-left: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.Edit-button {
+  padding: 0px;
+}
+
+.Edit-text-area {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
 }
