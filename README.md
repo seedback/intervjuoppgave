@@ -1,3 +1,13 @@
+# Readme
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+All my work can be found in src/App.js and src/App.css.
+
+
+
+Following is the standard readme made by the [Create React App](https://github.com/facebook/create-react-app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
